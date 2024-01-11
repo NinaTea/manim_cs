@@ -12,13 +12,13 @@ class BinaryTree(Scene):
         nodes[0].shift(2*UP)
 
         nodes[1].shift(2*LEFT)
-        nodes[3].shift(4 * LEFT + 2*DOWN)
-        nodes[4].shift(2*DOWN)
+        nodes[3].shift(3*LEFT + DOWN)
+        nodes[4].shift(DOWN - RIGHT)
 
 
         nodes[2].shift(2*RIGHT)
-        nodes[5].shift(2*DOWN)
-        nodes[6].shift(4*RIGHT+2*DOWN)
+        nodes[5].shift(DOWN - LEFT)
+        nodes[6].shift(3*RIGHT + DOWN)
 
         # Connect nodes to create edges
         edges = [
